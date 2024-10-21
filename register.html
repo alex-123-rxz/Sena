@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <form id="register-form" class="form">
+            <h1 class="title">Registrarse</h1>
+            <div class="inp">
+                <input type="text" id="username" class="input" placeholder="Usuario" required autocomplete="username">
+                <i class="fa-solid fa-user"></i>
+            </div>
+            <div class="inp">
+                <input type="email" id="email" class="input" placeholder="Correo" required autocomplete="email">
+                <i class="fa-solid fa-envelope"></i>
+            </div>
+            <div class="inp">
+                <input type="password" id="password" class="input" placeholder="Contraseña" required autocomplete="new-password">
+                <i class="fa-solid fa-lock"></i>
+            </div>
+            <button type="submit" class="submit">Registrarse</button>
+            <br>
+            <div class="social-networks">
+                <ion-icon name="logo-google"></ion-icon>
+                <ion-icon name="logo-facebook"></ion-icon>
+                <ion-icon name="logo-apple"></ion-icon>
+            </div>
+            <p class="footer">¿Ya tienes cuenta? <a href="login.html" class="link">Inicia Sesión</a></p>
+        </form>
+        <div class="banner">
+            <h1 class="wel_text">Bienvenidos<br></h1>
+            <p class="para">Gracias por elegirnos</p>
+        </div>
+    </div>
+    <script src="register.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
